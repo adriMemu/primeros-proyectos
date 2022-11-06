@@ -1,0 +1,117 @@
+body {
+	padding-top: 80px;
+}
+
+#contenedor {
+	background: -moz-linear-gradient(top, #ffffff, #270033);
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff),  to(#270033)); 
+	background: -o-linear-gradient(rgb(255, 255, 255),rgb(39, 0, 51));
+}
+
+#marca {
+	background-color: #F5CBA7;
+}
+
+#navbar {
+	/*background-color: #e5ccff;*/
+	background-color: rgba(117, 0, 153, 0.5);
+}
+
+#navbarNav ul li a {
+	margin-right: 15px;
+}
+
+.bg_txt {
+	height: auto;
+	background-color: rgba(117, 0, 153, 0.3);
+}
+
+#seccion1 #contenido1, #seccion4 {
+	background-color: #ffffff;
+}
+
+.titulo {
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+.subtitulo {
+	color: #ffffff;
+	font-size: 20px;
+}
+
+.texto_centrado {
+	text-align: center;
+}
+
+#seccion1, #seccion2, #seccion3, #seccion4, #seccion5 {
+	margin: 10px;
+}
+
+.bordes {
+	border-style: solid;
+	border-radius: 30px;
+	border-color: #e5ccff;
+	border-width: 15px;
+}
+
+#seccion4 .card {
+	border: none;
+}
+
+.borde_rd {
+	border-style: solid;
+	border-color: #f2ccff;
+	border-width: 15px;
+}
+
+.rounded_border {
+	border-radius: 10px;
+}
+
+#seccion5, #seccion1 {
+	background-color: transparent;
+}
+
+#seccion5 form, #seccion5 label, #seccion5 input, #seccion5 textarea {
+	margin-bottom: 5px;
+	margin-top: 10px;
+	color: #ffffff;
+}
+
+#seccion5 button {
+	margin-top: 10px;
+}
+
+.botones {
+	background-color: #f2ccff;
+	color: #333333;
+}
+
+.botones:hover {
+	background-color: #e699ff;
+	color: #ffffff;
+}
+
+#pie {
+	background-color: #270033;
+}
+
+#botonera2 ul li a {
+	display: block;
+	margin: 20px;
+}
+
+#botonera2 ul li a:hover {
+	webkit-transform: scale(1.15);
+	moz-transform: scale(1.15);
+	o-transform: scale(1.15);
+   transform: scale(1.15);
+}
+
+footer div p {
+	color: #ffffff;
+	text-align: center;
+	font-size: 14px;
+}
